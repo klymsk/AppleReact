@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font-family: "Unbounded";
+    --font-weight-bold: 800;
+    --font-weight-regular: 400;
+    --white-color: #FFFFFF;
+    --gray-color: #181818;
+    --black-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+
+.mainLogo {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.mainLogo h1 {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: 1rem;
+    color: var(--white-color);
+}
+
+nav {
+    display: flex;
+    gap: 4rem;
+    background-color: var(--gray-color);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    padding: 2rem 4rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: 1;
+    color: var(--white-color);
+}

@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font-family: "Unbounded";
+    --font-weight-bold: 800;
+    --font-weight-regular: 400;
+    --white-color: #FFFFFF;
+    --gray-color: #181818;
+    --black-color: #000000;
+}
